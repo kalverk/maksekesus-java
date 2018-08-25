@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "Pay": {
+      "href": "https://api.maksekeskus.ee/v1/transactions/fbbe4249-0078-4408-8903-fc01d0366c3b/payments"
+    },
+    "self": {
+      "href": "https://api.maksekeskus.ee/v1/transactions/fbbe4249-0078-4408-8903-fc01d0366c3b"
+    }
+  },
+  "amount": 12.95,
+  "country": "ee",
+  "created_at": "2018-08-24T15:05:17+0000",
+  "currency": "EUR",
+  "customer": {
+    "country": "ee",
+    "created_at": "2018-08-24T15:05:17+0000",
+    "email": "maksekeskus.test.1535101915@mailinator.com",
+    "id": "ad15d548-d55f-4872-b09c-d01a025f811d",
+    "ip": "80.235.22.114",
+    "ip_country": "ee",
+    "locale": "et",
+    "name": "ad15d548-d55f-4872-b09c-d01a025f811d",
+    "object": "customer"
+  },
+  "id": "fbbe4249-0078-4408-8903-fc01d0366c3b",
+  "merchant_data": "additional data regarding the payment",
+  "method": null,
+  "object": "transaction",
+  "payment_methods": {
+    "banklinks": [
+      {
+        "country": "ee",
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/swedbank.png",
+        "name": "swedbank",
+        "url": "https://payment.maksekeskus.ee/banklink.html?method=EE_SWED&trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      },
+      {
+        "country": "ee",
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/seb.png",
+        "name": "seb",
+        "url": "https://payment.maksekeskus.ee/banklink.html?method=EE_SEB&trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      },
+      {
+        "country": "ee",
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/lhv.png",
+        "name": "lhv",
+        "url": "https://payment.maksekeskus.ee/banklink.html?method=EE_LHV&trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      },
+      {
+        "country": "ee",
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/luminor.png",
+        "name": "nordea",
+        "url": "https://payment.maksekeskus.ee/banklink.html?method=EE_NORDEA&trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      },
+      {
+        "country": "ee",
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/coop.png",
+        "name": "krediidipank",
+        "url": "https://payment.maksekeskus.ee/banklink.html?method=EE_KREDIIDI&trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      },
+      {
+        "country": "ee",
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/pocopay.png",
+        "name": "pocopay",
+        "url": "https://payment.maksekeskus.ee/banklink.html?method=EE_POCOPAY&trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      },
+      {
+        "country": "ee",
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/liisi_ee.png",
+        "name": "liisi_ee",
+        "url": "https://payment.maksekeskus.ee/banklink.html?method=EE_LIISI_EE&trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      }
+    ],
+    "cards": [
+      {
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/visa.png",
+        "name": "visa"
+      },
+      {
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/mastercard.png",
+        "name": "mastercard"
+      },
+      {
+        "logo_url": "https://static.maksekeskus.ee/img/channel/lnd/maestro.png",
+        "name": "maestro"
+      }
+    ],
+    "cash": [],
+    "other": [
+      {
+        "name": "redirect",
+        "url": "https://payment.maksekeskus.ee/pay.html?trx=fbbe4249-0078-4408-8903-fc01d0366c3b"
+      }
+    ]
+  },
+  "recurring_required": false,
+  "reference": "123abc",
+  "status": "CREATED",
+  "type": null
+}

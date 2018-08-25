@@ -1,0 +1,28 @@
+{
+  "transaction":{
+    "amount":"12.95",
+    "currency":"EUR",
+    "reference":"123abc",
+    "merchant_data":"additional data",
+    "transaction_url":{
+      "return_url":{
+        "url":"http:\/\/automuuk.ee\/api\/payment-success",
+        "method":"POST"
+      },
+      "cancel_url":{
+        "url":"http:\/\/automuuk.ee\/api\/payment-cancel",
+        "method":"POST"
+      },
+      "notification_url":{
+        "url":"http:\/\/automuuk.ee\/api\/payment-notification",
+        "method":"POST"
+      }
+    }
+  },
+  "customer":{
+    "email":"maksekeskus.test.1535101915@mailinator.com",
+    "ip":"80.235.22.114",
+    "country":"ee",
+    "locale":"et"
+  }
+}
